@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Naimish Purohit" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <title>Naimish Purohit</title>
+</head>
+<body class="light" id="top">
+  <header class="header center">
+    <h3><a href="#" class="link">NP.</a></h3>
+
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item"><a class="link link--nav" href="#projects">Projects</a></li>
+        <li class="nav__list-item"><a class="link link--nav" href="#skills">Skills</a></li>
+        <li class="nav__list-item"><a class="link link--nav" href="#contact">Contact</a></li>
+        <button id="btn-theme" class="nav__list-item"><a class="link link--nav"x`>Mode</a></button>
+      </ul>
+
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About -->
+    <div class="about center">
+      <h1>Hi, I am <span class="about__name">Naimish Purohit.</span></h1>
+      <h2 class="about__role">An Electronics & Computer Science Enthusiast.</h2>
+      <p class="about__desc">
+        Third-year ECS student with a passion for hardware design, embedded systems, and robotics. Skilled in PCB design, troubleshooting, and integrating complex systems for real-world problem-solving.
+      </p>
+
+      <div class="about__contact center">
+        <a href="https://drive.google.com/file/d/1Uu-PGqinzein-E6K4Iv7bXffwMGR40_j/view?usp=sharing">
+          <span class="btn btn--outline">Resume</span>
+        </a>
+
+        <a href="https://github.com/NaimishWinner45" aria-label="github" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/naimish-purohit-2833a1248/" aria-label="linkedin" class="link link--icon">
+          <i aria-hidden="true" class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- Internships Section -->
+<section id="internships" class="section internships">
+  <h2 class="section__title">Internships</h2>
+
+  <div class="internships__grid">
+    <!-- Internship 1: Acevin Solutions -->
+    <div class="internship">
+      <h3>Hardware Intern at Acevin Solutions</h3>
+      <p class="internship__description">Designed and developed circuits, focusing on PCB layout, testing, and troubleshooting for various hardware projects.</p>
+      <ul class="internship__stack">
+        <li class="internship__stack-item">Circuit Design</li>
+        <li class="internship__stack-item">PCB Layout</li>
+        <li class="internship__stack-item">Testing & Troubleshooting</li>
+      </ul>
+    </div>
+
+    <!-- Internship 2: Supernova -->
+    <div class="internship">
+      <h3>Hardware Expert at Supernova</h3>
+      <p class="internship__description">Worked on optimizing smart street lighting systems with a focus on hardware components for energy efficiency and remote control capabilities.</p>
+      <ul class="internship__stack">
+        <li class="internship__stack-item">Smart Street Lighting</li>
+        <li class="internship__stack-item">Energy Efficiency</li>
+        <li class="internship__stack-item">Hardware Integration</li>
+      </ul>
+
+    
+    </div>
+  </div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+      <h2 class="section__title">Projects</h2>
+
+      <div class="projects__grid">
+        <div class="project">
+          <h3>Hexapod Robot</h3>
+          <p class="project__description">Developed control systems, power management, and sensor integration for a precise, responsive robot.</p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Embedded C</li>
+            <li class="project__stack-item">PCB Design</li>
+            <li class="project__stack-item">Robotics</li>
+          </ul>
+
+         <!-- <a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>-->
+        </div>
+
+        <div class="project">
+          <h3>Interactive AI Robot</h3>
+          <p class="project__description">Hardware optimization and component integration for AI-based robot with scalable architecture.</p>
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">AI/ML</li>
+            <li class="project__stack-item">Embedded Systems</li>
+          </ul>
+
+          <!--<a href="https://github.com" aria-label="source code" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>-->
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <ul class="skills__list">
+        <li class="skills__list-item btn btn--plain">Circuit Design</li>
+        <li class="skills__list-item btn btn--plain">Embedded C</li>
+        <li class="skills__list-item btn btn--plain">PCB Design</li>
+        <li class="skills__list-item btn btn--plain">Robotics</li>
+        <li class="skills__list-item btn btn--plain">Python</li>
+        <li class="skills__list-item btn btn--plain">Hardware Troubleshooting</li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact center" id="contact">
+      <h2 class="section__title">Contact</h2>
+      <a href="mailto:namspurohit03@gmail.com">
+        <span class="btn btn--outline">Email me</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="https://github.com/naimishpurohit" class="footer__link">Created by Naimish Purohit <br> Roll No: 10396 | Batch: B | Branch: TE ECS</a>
+  </footer>
+  <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    const themeButton = document.getElementById("btn-theme");
+    themeButton.addEventListener("click", () => {
+      document.body.classList.toggle("light");
+      document.body.classList.toggle("dark");
+      themeButton.classList.toggle("fa-moon");
+      themeButton.classList.toggle("fa-sun");
+    });
+  </script>
+</body>
+</html>
